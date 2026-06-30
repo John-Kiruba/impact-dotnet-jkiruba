@@ -2,7 +2,6 @@
 //Explain each output in a comment.
 //✓ Done when: the comment correctly explains why the array/class shared state but the int/struct did not.
 
-
 class Program
 {
     struct CoordinateStruct
@@ -27,7 +26,7 @@ class Program
     {
         // -------------------------------
         // 1. int (Value Type)
-        
+
         int initialCount = 10;
         int copiedCount = initialCount;
 
@@ -62,11 +61,7 @@ class Program
         // -------------------------------
         // 3. Struct (Value Type)
         // -------------------------------
-        CoordinateStruct point1 = new()
-        {
-            X = 10,
-            Y = 20
-        };
+        CoordinateStruct point1 = new() { X = 10, Y = 20 };
 
         CoordinateStruct point2 = point1;
 
