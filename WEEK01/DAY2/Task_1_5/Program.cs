@@ -2,7 +2,6 @@
 //Call it from Program.cs with and without the using directive.
 //✓ Done when: both call styles compile and you've noted the difference in a comment.
 
-
 using SchoolManagement;
 
 class Program
@@ -17,10 +16,9 @@ class Program
         Student student1 = new() { Name = "Tim" };
         student1.Display();
 
-        //2 : Without using directive 
-        SchoolManagement.Student student2 = new() { Name="John" };     
+        //2 : Without using directive
+        SchoolManagement.Student student2 = new() { Name = "John" };
         student2.Display();
-
     }
 }
 
@@ -38,4 +36,4 @@ class Program
 //Solution Options:
 //assign a required clause to the string;
 //add a default empty string as value so its not null
-//make the string nullable. 
+//make the string nullable.
